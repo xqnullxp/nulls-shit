@@ -1,7 +1,7 @@
 #wrote by null
 #if you find this delete it.
 
-import os, time, threading 
+import os, time 
 
 username = input ('\x1b[0;35m user: ')
 password = input ('\x1b[0;35m pass: ')
@@ -17,5 +17,5 @@ time.sleep(3)
 os.system('cls')
 
 print("\x1b[0;35m loading") 
-time.slee(5)
+time.sleep(5)
 os.system('cls')
